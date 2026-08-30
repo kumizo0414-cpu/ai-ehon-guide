@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="ChatGPT、画像生成AI、Canva、Amazon KDPで思い出を絵本にする4STEPガイド">
+<title>AIでつくる 大人の絵本づくりガイド</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+<a class="skip-link" href="#main">本文へ移動</a>
+<main id="main">
+<section class="hero" id="top">
+<span class="deco d1">✦</span>
+<span class="deco d2">🌷</span>
+<span class="deco d3">✏️</span>
+<div class="wrap hero-grid">
+<div>
+<p class="eyebrow">📖 はじめてでも楽しめる4STEP</p>
+<h1>AIでつくる<br>
+<span>大人の絵本づくりガイド</span>
+</h1>
+<p class="hero-lead">あなたの思い出や人生経験が、<br>世界にひとつだけの絵本になります。</p>
+<p class="hero-note">ChatGPT・画像生成AI・Canvaを使って、はじめての方でも楽しみながら作れる方法を4STEPでご紹介します。</p>
+</div>
+<figure class="cover-card">
+<img src="assets/book/cover.jpg" alt="水彩絵本『わたしをえらんで』の表紙" width="1991" height="1494">
+<figcaption>完成例『わたしをえらんで』</figcaption>
+</figure>
+</div>
+</section>
+<section class="section memories">
+<div class="wrap">
+<header class="section-head">
+<p class="kicker">YOUR MEMORIES</p>
+<h2>こんな思い出も、<br>絵本にできます。</h2>
+<p>特別な出来事でなくても大丈夫。<br>あなたが大切にしてきた記憶や、忘れたくない時間が、絵本の題材になります。</p>
+</header>
+<div class="memory-grid">
+<article>🌷<b>子どもの頃の思い出</b>
+</article>
+<article>🏡<b>家族との出来事</b>
+</article>
+<article>🐶<b>大切なペットとの出会い</b>
+</article>
+<article>✈️<b>忘れられない旅</b>
+</article>
+<article>💐<b>人生の転機</b>
+</article>
+<article>💌<b>大切な人へ伝えたいこと</b>
+</article>
+<article>✨<b>これまで歩いてきた自分の人生</b>
+</article>
+</div>
+</div>
+</section>
+<section class="section roadmap-section">
+<div class="wrap">
+<header class="section-head">
+<p class="kicker">4 EASY STEPS</p>
+<h2>AI絵本づくりは<br>たった4STEP</h2>
+</header>
+<div class="roadmap">
+<article>
+<span>01</span>
+<i>💬</i>
+<div>
+<small>ChatGPT</small>
+<h3>物語をつくる</h3>
+</div>
+</article>
+<b>↓</b>
+<article>
+<span>02</span>
+<i>🎨</i>
+<div>
+<small>画像生成AI</small>
+<h3>イラストをつくる</h3>
+</div>
+</article>
+<b>↓</b>
+<article>
+<span>03</span>
+<i>📖</i>
+<div>
+<small>Canva</small>
+<h3>絵本に仕上げる</h3>
+</div>
+</article>
+<b>↓</b>
+<article>
+<span>04</span>
+<i>📚</i>
+<div>
+<small>Amazon KDP</small>
+<h3>本として出版する</h3>
+</div>
+</article>
+</div>
+</div>
+</section>
+<section class="section step-one">
+<div class="wrap narrow">
+<header class="step-head">
+<span>STEP 1</span>
+<div>
+<p>💬 ChatGPT</p>
+<h2>物語をつくる</h2>
+</div>
+</header>
+<div class="prose">
+<p>まずは、絵本にしたい思い出をChatGPTに話してみましょう。</p>
+<p>文章が上手に書けなくても大丈夫。思い出したことを、普段話すように書くだけでOKです。</p>
+</div>
+<aside class="point">
+<b>🌿 ここがポイント</b>
+<p>最初からきれいな文章にしようとしなくて大丈夫。「いつ・どこで・誰と・何があったか」を思い出せる範囲で書いてみましょう。</p>
+</aside>
+<article class="prompt-card">
+<p class="copy-label">✨ コピペして使えます</p>
+<h3>絵本シナリオ作成プロンプト</h3>
+<div class="prompt-body" id="scenario-prompt">あなたは、大人向けの心あたたまる絵本を作る編集者です。
+
+これから私が伝える実体験をもとに、やさしく読みやすい絵本の物語を作ってください。
+
+【思い出の内容】
+（ここに、絵本にしたい思い出を書いてください）
+
+次の条件で作成してください。
+
+・全体を10〜12ページ程度に分ける
+・各ページに「本文」と「場面の説明」を付ける
+・本文は1ページにつき2〜5文程度の、読みやすい長さにする
+・50〜60代の大人が読んで心がほっとする、自然で温かい言葉を使う
+・子ども向けになりすぎず、大人が読んでも心に残る表現にする
+・実体験の大切な部分は変えず、必要以上に脚色しない
+・登場人物の気持ちは説明しすぎず、情景やしぐさから伝わるようにする
+・「場面の説明」は、あとでAIでイラストを作りやすいように、人物・表情・場所・時間帯・構図がわかる内容にする
+
+最後に、絵本に合うタイトル案を3つ提案してください。</div>
+<button class="copy-btn" type="button" data-copy-target="scenario-prompt">コピーする</button>
+</article>
+</div>
+</section>
+<section class="section step-two">
+<div class="wrap narrow">
+<header class="step-head blue">
+<span>STEP 2</span>
+<div>
+<p>🎨 画像生成AI</p>
+<h2>イラストをつくる</h2>
+</div>
+</header>
+<div class="prose">
+<p>物語ができたら、次は各ページのイラストを作ります。</p>
+<p>ここで大切なのは、<strong>「毎回ちがう主人公にならないこと」</strong>。最初にキャラクターの特徴を決めて、同じ設定を繰り返し使うのがコツです。</p>
+</div>
+<article class="prompt-card blue-card">
+<p class="copy-label">✨ コピペして使えます</p>
+<h3>画像生成用プロンプトを<br>作るためのプロンプト</h3>
+<div class="prompt-body" id="image-prompt">次の絵本シナリオをもとに、各ページの画像生成AI用プロンプトを作ってください。
+
+【絵本シナリオ】
+（ここに完成したシナリオを貼り付けてください）
+
+最初に、シナリオから主人公や主要人物の特徴を整理し、「共通キャラクター設定」を作ってください。
+
+共通キャラクター設定には、必要に応じて次の特徴を入れてください。
+
+・年齢
+・性別
+・髪型、髪色
+・顔立ちや表情の特徴
+・服装
+・体型
+・その他、毎ページそろえたい特徴
+
+その共通設定を必ず各ページのプロンプトにも反映し、同じ人物が登場するページでは、顔立ち・髪型・服装などが途中で変わらないようにしてください。
+
+【画像の共通条件】
+
+・大人向けの、やさしく上品な水彩絵本タッチ
+・柔らかく自然な光
+・温かみがあり、少し余韻を感じる雰囲気
+・子ども向けのかわいらしさに寄りすぎない
+・縦長9:16
+・高画質
+・画像内に文字、ロゴ、透かしを入れない
+・人物の特徴と画風は全ページで統一する
+・ページごとにカメラ位置、人物の大きさ、視点などを変え、同じような構図が続かないようにする
+
+各ページについて、
+
+「ページ番号」
+「そのページの場面」
+「画像生成用プロンプト」
+
+の順で出力してください。
+
+画像生成用プロンプトは、そのまま画像生成AIにコピーして使える完成形にしてください。</div>
+<button class="copy-btn blue-copy" type="button" data-copy-target="image-prompt">コピーする</button>
+</article>
+</div>
+</section>
+<section class="section tips-section">
+<div class="wrap">
+<header class="section-head">
+<p class="kicker">KEEP IT CONSISTENT</p>
+<h2>同じ主人公に見せる<br>4つのコツ</h2>
+</header>
+<div class="tip-grid">
+<article>
+<span>01</span>
+<i>👩</i>
+<h3>キャラクター設定を固定する</h3>
+<p>年齢・髪型・髪色・服装・顔の特徴などを最初に決めておきましょう。</p>
+</article>
+<article>
+<span>02</span>
+<i>📝</i>
+<h3>毎回同じ言葉を使う</h3>
+<p>共通設定そのものを毎回プロンプトに入れるのがポイントです。</p>
+</article>
+<article>
+<span>03</span>
+<i>🖼️</i>
+<h3>お気に入りの1枚を基準にする</h3>
+<p>参考画像を使えるAIなら、「これが主人公」と決めた画像を基準にすると統一しやすくなります。</p>
+</article>
+<article>
+<span>04</span>
+<i>🔤</i>
+<h3>文字は画像AIに入れない</h3>
+<p>イラストだけを作り、本文はCanvaで入れると文字崩れを防ぎやすくなります。</p>
+</article>
+</div>
+<aside class="point warm">
+<b>🌿 ここがポイント</b>
+<p>一度にたくさん直さず、<strong>「髪型だけ」「表情だけ」「服だけ」</strong>のように修正点を少なくすると調整しやすくなります。</p>
+</aside>
+</div>
+</section>
+<section class="section canva-section">
+<div class="wrap narrow">
+<header class="step-head coral">
+<span>STEP 3</span>
+<div>
+<p>📖 Canva</p>
+<h2>絵本に仕上げる</h2>
+</div>
+</header>
+<div class="prose">
+<p>イラストがそろったら、Canvaに並べて本文を入れます。</p>
+<p>デザインは凝りすぎなくて大丈夫。絵が主役になるようにシンプルに仕上げましょう。</p>
+</div>
+<ol class="process">
+<li>
+<span>1</span>Canvaで絵本用のデザインを作成</li>
+<li>
+<span>2</span>作ったイラストをページ順に配置</li>
+<li>
+<span>3</span>本文を入れて、フォント・文字サイズ・余白をそろえる</li>
+<li>
+<span>4</span>すべて確認したらPDFで書き出す</li>
+</ol>
+<aside class="point coral-note">
+<b>🌿 ここがポイント</b>
+<ul>
+<li>イラストを無理にトリミングしない</li>
+<li>文字を画面端まで置かない</li>
+<li>1ページに文字を詰め込みすぎない</li>
+<li>フォントを何種類も使わない</li>
+<li>KDP用は判型・ページ数を確認してからCanvaのサイズを決める</li>
+</ul>
+</aside>
+</div>
+</section>
+<section class="section kdp-section">
+<div class="wrap narrow">
+<header class="step-head navy">
+<span>STEP 4</span>
+<div>
+<p>📚 Amazon KDP</p>
+<h2>本として出版する</h2>
+</div>
+</header>
+<p class="lead">絵本が完成したら、Amazonで紙の本として出版することもできます📚✨</p>
+<ol class="process kdp">
+<li>
+<span>1</span>Amazon KDPに登録</li>
+<li>
+<span>2</span>「ペーパーバック」を選択</li>
+<li>
+<span>3</span>本のタイトル・著者名・カテゴリーなどを入力</li>
+<li>
+<span>4</span>本文PDFと表紙データをアップロード</li>
+<li>
+<span>5</span>AI生成コンテンツを使用している場合は申告</li>
+<li>
+<span>6</span>価格を設定して出版申請</li>
+</ol>
+<p>審査が完了すると、Amazonの商品ページから購入できるようになります。</p>
+<aside class="kdp-point">
+<h3>🌿 ページ数のポイント</h3>
+<p>プレミアムカラーのペーパーバックは本文24ページ以上が必要です。12ページ程度の絵本なら、タイトルページやあとがきなどを加えて調整しましょう。</p>
+<p>価格はKDP画面の印刷コストや最低希望小売価格を確認して決めればOKです。</p>
+</aside>
+<p class="fine">※Amazon KDPの仕様・料金・条件は変更される場合があります。出版時には必ず<a href="https://kdp.amazon.com/en_US/help/topic/G201857950" target="_blank" rel="noopener">Amazon KDPの最新公式情報</a>をご確認ください。</p>
+</div>
+</section>
+<section class="section book-section" id="book">
+<div class="book-wrap">
+<header class="section-head">
+<p class="kicker">実際に作ってみました</p>
+<h2>『わたしをえらんで』</h2>
+<p>この絵本は、<br>私たち夫婦と愛犬ちび子の実話です。</p>
+<p>子どものいない私たちにとって、<br>ちび子はまさに天使のような存在でした。</p>
+<p>この絵本を作りながら、<br>何度も涙が出ました。</p>
+<p>ちび子と過ごした時間は、<br>今でもずっと大切な思い出です。</p>
+<p class="swipe">左右にスワイプして、<br>ゆっくり読んでみてください。</p>
+</header>
+<div class="carousel-shell">
+<button class="arrow prev" type="button" aria-label="前のページへ">‹</button>
+<div class="carousel" id="book-carousel" tabindex="0" aria-label="絵本『わたしをえらんで』全13ページ">
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="表紙を拡大">
+<img src="assets/book/cover.jpg" alt="『わたしをえらんで』表紙" width="1991" height="1494">
+</button>
+<figcaption>表紙</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="1ページ目を拡大">
+<img src="assets/book/page-1.jpg" alt="『わたしをえらんで』1ページ目" width="1991" height="1494">
+</button>
+<figcaption>1ページ</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="2ページ目を拡大">
+<img src="assets/book/page-2.jpg" alt="『わたしをえらんで』2ページ目" width="1991" height="1494">
+</button>
+<figcaption>2ページ</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="3ページ目を拡大">
+<img src="assets/book/page-3.jpg" alt="『わたしをえらんで』3ページ目" width="1991" height="1494" loading="lazy">
+</button>
+<figcaption>3ページ</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="4ページ目を拡大">
+<img src="assets/book/page-4.jpg" alt="『わたしをえらんで』4ページ目" width="1991" height="1494" loading="lazy">
+</button>
+<figcaption>4ページ</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="5ページ目を拡大">
+<img src="assets/book/page-5.jpg" alt="『わたしをえらんで』5ページ目" width="1991" height="1494" loading="lazy">
+</button>
+<figcaption>5ページ</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="6ページ目を拡大">
+<img src="assets/book/page-6.jpg" alt="『わたしをえらんで』6ページ目" width="1991" height="1494" loading="lazy">
+</button>
+<figcaption>6ページ</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="7ページ目を拡大">
+<img src="assets/book/page-7.jpg" alt="『わたしをえらんで』7ページ目" width="1991" height="1494" loading="lazy">
+</button>
+<figcaption>7ページ</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="8ページ目を拡大">
+<img src="assets/book/page-8.jpg" alt="『わたしをえらんで』8ページ目" width="1991" height="1494" loading="lazy">
+</button>
+<figcaption>8ページ</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="9ページ目を拡大">
+<img src="assets/book/page-9.jpg" alt="『わたしをえらんで』9ページ目" width="1991" height="1494" loading="lazy">
+</button>
+<figcaption>9ページ</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="10ページ目を拡大">
+<img src="assets/book/page-10.jpg" alt="『わたしをえらんで』10ページ目" width="1991" height="1494" loading="lazy">
+</button>
+<figcaption>10ページ</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="11ページ目を拡大">
+<img src="assets/book/page-11.jpg" alt="『わたしをえらんで』11ページ目" width="1991" height="1494" loading="lazy">
+</button>
+<figcaption>11ページ</figcaption>
+</figure>
+<figure class="book-slide">
+<button class="zoom-btn" type="button" aria-label="12ページ目を拡大">
+<img src="assets/book/page-12.jpg" alt="『わたしをえらんで』12ページ目" width="1991" height="1494" loading="lazy">
+</button>
+<figcaption>12ページ</figcaption>
+</figure>
+</div>
+<button class="arrow next" type="button" aria-label="次のページへ">›</button>
+</div>
+<div class="carousel-meta">
+<span id="carousel-count" aria-live="polite">1 / 13</span>
+<div class="dots" id="carousel-dots" aria-label="ページを選択">
+</div>
+</div>
+</div>
+</section>
+<section class="section message">
+<div class="wrap narrow">
+<span>🌷</span>
+<h2>あなたの人生には、<br>あなたにしかない物語があります。</h2>
+<p>AIは、あなたの代わりに人生を作るものではありません。</p>
+<p>あなたが経験してきたこと、大切にしてきたことを、</p>
+<p class="quote">「形にするお手伝いをしてくれる道具」</p>
+<p>だと思っています。</p>
+<p>上手に作ろうとしなくて大丈夫。<br>まずは、ひとつの思い出から。</p>
+<p>あなたにしか作れない一冊を、楽しみながら作ってみてください🌷</p>
+</div>
+</section>
+<section class="launch-dark">
+<div class="wrap">
+<h2>⚠️ でも、ここで正直にお伝えします。</h2>
+<p>ここまで読んで、<br>「AIって、私にもできそう」<br>「もっと活用してみたい」</p>
+<p>そう思った方もいるかもしれません。</p>
+<p class="launch-lead">でも、AIを使えるようになることと、<br>それを在宅ワークにつなげることは、<br>また別のステップです。</p>
+<div class="worries">
+<span>🤔 何から始めればいい？</span>
+<span>🤔 自分には何が向いている？</span>
+<span>🤔 できるだけ遠回りしたくない…</span>
+<span>🤔 50代・60代からでも遅くない？</span>
+</div>
+<p>私も、同じように迷ってきました。</p>
+</div>
+</section>
+<section class="launch-story">
+<div class="wrap narrow">
+<article class="experience">
+<p class="kicker">MY STORY</p>
+<h2>私も、<br>ずっと順調だったわけではありません。</h2>
+<p>借金を抱え、カードの支払いにも追われ、どうしようもないところまで追い込まれた時期がありました。</p>
+<p class="experience-quote">「このままではダメ」<br>「人生を変えたい」</p>
+<p>そう思って、50代前半から在宅でできる仕事を始めました。</p>
+<p>でも、そこからも失敗の連続。いろいろなことに挑戦して、たくさん遠回りしてきました。</p>
+</article>
+<article class="cream">
+<h2>だからこそ、<br>私のように遠回りしてほしくない。</h2>
+<p>年齢は関係ありません。50代でも、60代でも、始めたいと思ったときがスタートです。</p>
+<p>大切なのは、<strong>「変わりたい」と思ったときに、本気で一歩を踏み出すこと。</strong>
+</p>
+<p>最初から全部できなくても大丈夫。</p>
+<p>まず知ること。<br>そして、ひとつやってみること。</p>
+<p>その一歩から始まります🌷</p>
+</article>
+</div>
+</section>
+<section class="gift-section" id="gift">
+<div class="wrap narrow">
+<header class="gift-head">
+<p>🎁 そんな方のために用意しました</p>
+<h2>無料プレゼント中🎁</h2>
+<h3>『AIマネタイズの教科書』</h3>
+</header>
+<figure class="gift-banner">
+<img src="assets/IMG_0173.PNG.png" alt="ゼロから1年で月100万円、AIマネタイズの教科書 無料プレゼントバナー" width="1024" height="576">
+</figure>
+<div class="contents">
+<h3>📖 教科書の中身を少しだけご紹介！</h3>
+<ol>
+<li>
+<b>💎 第一章</b>
+<span>いま一番始めやすいAIマネタイズ手法</span>
+</li>
+<li>
+<b>💎 第二章</b>
+<span>ChatGPT収益化プロンプト</span>
+</li>
+<li>
+<b>💎 第三章</b>
+<span>AIマネタイズ神テンプレート</span>
+</li>
+<li>
+<b>💎 第四章</b>
+<span>マネタイズのための生成AIツール3選</span>
+</li>
+<li>
+<b>💎 第五章</b>
+<span>AI×SNSで収益を生むリアル事例</span>
+</li>
+</ol>
+<p>本書では、「作業効率を劇的に上げる神テンプレート（第三章）」や、単発の仕事で終わらせないための「AI×SNSで毎月安定した収益を生むリアル事例（第五章）」など、自己流ではつまずきやすいポイントを分かりやすくまとめています。</p>
+<p class="contents-close">AIを覚えるだけで終わらせず、<strong>「それをどう活かしていくのか？」</strong>まで、初心者の方にも分かりやすくまとめています。</p>
+</div>
+<div class="cta">
+<p>＼ 無料で受け取る ／</p>
+<h3>『AIマネタイズの教科書』</h3>
+<a class="line-button" href="" data-link="line" target="_blank" rel="noopener noreferrer">公式LINEで無料で受け取る <span>→</span>
+</a>
+</div>
+<div class="disclaimer">
+<p>※本ページでご紹介している内容は、特定の成果や収入を保証するものではありません。結果には、取り組む内容や環境などによって個人差があります。</p>
+<p>※Amazon KDP、ChatGPT、Canva、Instagramなど外部サービスの機能・料金・規約・条件は変更される場合があります。ご利用の際は、各サービスの最新の公式情報をご確認ください。</p>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<nav aria-label="フッターナビゲーション">
+<a href="#" data-link="instagram">Instagram</a>
+<a href="#" data-link="about">運営者情報</a>
+<a href="#" data-link="privacy">プライバシーポリシー</a>
+<a href="#top">トップへ戻る</a>
+</nav>
+<p>© 2026 くみ. All Rights Reserved.</p>
+</footer>
+<dialog id="image-modal">
+<button class="modal-close" type="button" aria-label="拡大表示を閉じる">×</button>
+<img src="" alt="">
+<p>
+</p>
+</dialog>
+<script src="script.js?v=7">
+</script>
+</body>
+</html>
+
