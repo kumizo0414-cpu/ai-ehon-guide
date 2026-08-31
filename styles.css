@@ -160,7 +160,8 @@ p{margin:0 0 22px}
 .cta h3{font-size:26px}
 .line-button{display:flex;align-items:center;justify-content:center;gap:12px;width:min(100%,480px);min-height:58px;margin:24px auto 0;background:#6e9c63;color:#fff;text-decoration:none;border-radius:17px;font-size:19px;font-weight:700}
 .line-button:hover{background:#5b8752}
-.disclaimer{font-size:15px;background:#f7f5f0;padding:20px;border-radius:14px}
+.disclaimer{font-size:13px;line-height:1.55;color:#766f69;background:transparent;padding:8px 4px;border-radius:0}
+.disclaimer p{margin-bottom:10px}
 .disclaimer p:last-child{margin:0}
 footer{padding:42px 22px;text-align:center;background:#102237;color:#fff}
 footer nav{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 24px;margin-bottom:22px}
