@@ -1,4 +1,4 @@
-const LINE_URL='https://utage-system.com/line/open/uukg47XG0D5R?mtid=NHO8misvRyPA';
+const LINE_URL='https://x.gd/Smg2e';
 // TODO: 公開前にLINE以外の各URLを設定。ここだけ変更すれば全リンクに反映されます。
 const SITE_LINKS={line:LINE_URL,instagram:'#',about:'#',privacy:'#'};
 document.querySelectorAll('[data-link]').forEach(link=>{link.href=SITE_LINKS[link.dataset.link]||'#'});
