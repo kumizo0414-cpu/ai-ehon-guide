@@ -1,4 +1,4 @@
-const LINE_URL='https://x.gd/Smg2e';
+const LINE_URL='https://bit.ly/4y4f6Yv';
 // TODO: 公開前にLINE以外の各URLを設定。ここだけ変更すれば全リンクに反映されます。
 const SITE_LINKS={line:LINE_URL,instagram:'#',about:'#',privacy:'#'};
 document.querySelectorAll('[data-link]').forEach(link=>{link.href=SITE_LINKS[link.dataset.link]||'#'});
